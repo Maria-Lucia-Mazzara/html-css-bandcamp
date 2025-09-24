@@ -9,9 +9,14 @@ body {
     overflow: hidden ;
 }
 
+
+.container {
+    width: 100%;
+}
 .debug {
 border: 1px dashed black;
 }
+/* debug header*/
 
 .debug header {
     background-color: aqua;
@@ -23,7 +28,26 @@ border: 1px dashed black;
     background-color: brown;
     width: 10%;
     height: 40px;
-    margin-top: 10px;
     margin-left: 5px;
 
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+#barra_ricerca {
+    width: 20%;
+    height: 40px;
+}
+
+.bar-right {
+    margin-right: 10px;
+}
+
