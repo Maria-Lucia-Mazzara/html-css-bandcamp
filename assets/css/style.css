@@ -73,31 +73,23 @@ header {
     height: 50px;
 }
 
-.debug .search-music {
 
-    padding: 5px;
-    margin: 10px;
-    
-}
 
 /* header seconda parte*/
 
+.search-music-header {
+    margin-left: 20px;
+}
+
 /* fine header seconda parte*/
 
-/*inizio debug main*/
+/*inizio debug main sinistra*/
 
 .debug .column-left{
     background-color: brown;
     width: 70%;
     height: 1000px;
     
-}
-
-.debug .column-right {
-    background-color: green;
-    width: 30%;
-    height: 1000px;
-
 }
 
 .debug .album {
@@ -108,17 +100,10 @@ header {
     margin-top: 20px;
 }
 
-.debug .img-right {
-    background-color: aliceblue;
-    width: 95%;
-    height: 500px;
-    margin-left: 10px;
-    margin-top: 20px;
-}
 
-/* fine debug main*/
+/* fine debug main sinistra*/
 
-/* inizio main*/
+/* inizio main sinistra*/
 
 .column {
     display: flex;
@@ -130,3 +115,29 @@ header {
     flex-wrap: wrap;
     gap: 5px;
 }
+
+/* debug destro*/
+
+.debug .column-right {
+    background-color: green;
+    width: 30%;
+    height: 1000px;
+
+}
+.debug .img-right {
+    background-color: aliceblue;
+    width: 95%;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* main sinistro */
+
+.player {
+    font-size: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
