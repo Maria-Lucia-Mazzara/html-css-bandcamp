@@ -105,6 +105,15 @@ header {
     background-color: azure;
     height: 100px;
     width: calc((100% - 15px) / 4);
+    margin-top: 20px;
+}
+
+.debug .img-right {
+    background-color: aliceblue;
+    width: 95%;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 /* fine debug main*/
