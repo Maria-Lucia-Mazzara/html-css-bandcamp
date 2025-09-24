@@ -28,6 +28,7 @@ border: 1px dashed black;
     width: 70px;
     height: 50px;
 }
+
 .debug .search {
     background-color: brown;
     width: 70px;
@@ -61,4 +62,48 @@ header {
     justify-content: flex-end;
     margin-right: 10px;
     gap: 10px;
+}
+/* fine header search-bar */
+
+/* header debug seconda parte*/
+
+.debug .color {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.debug .search-music {
+
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+/* header seconda parte*/
+
+/* fine header seconda parte*/
+
+/*inizio debug main*/
+
+.debug .column-left{
+    background-color: brown;
+    width: 70%;
+    height: 1000px;
+}
+
+.column-right {
+    background-color: green;
+    width: 30%;
+    height: 1000px;
+
+}
+
+/* fine debug main*/
+
+/* inizio main*/
+
+.column {
+    display: flex;
+    gap: 5px;
 }
