@@ -149,12 +149,15 @@ height: auto;
 }
 
 .album {
-   width: calc((100% - 30px) / 4);
+   width: calc((100% - 40px) / 4);
+   padding-left: 20px;
     margin-top: 20px; 
+    color: white;
 }
 
 .album img {
     width: 100%;
+    
 }
 
 /* debug destro*/
