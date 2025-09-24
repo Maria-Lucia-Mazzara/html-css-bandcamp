@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    overflow: hidden ;
+    overflow: hidden;
 }
 
 
@@ -14,8 +14,10 @@ body {
     width: 100%;
 }
 
+
+
 .debug {
-border: 1px dashed black;
+    border: 1px dashed black;
 }
 
 /* debug header*/
@@ -40,7 +42,12 @@ border: 1px dashed black;
 
 /* header*/
 header {
- width: 100%;
+    width: 100%;
+}
+.debug .logo {
+    background-color: brown;
+    width: 70px;
+    height: 50px;
 }
 
 .search-bar {
@@ -63,6 +70,7 @@ header {
     margin-right: 10px;
     gap: 10px;
 }
+
 /* fine header search-bar */
 
 /* header debug seconda parte*/
@@ -85,11 +93,11 @@ header {
 
 /*inizio debug main sinistra*/
 
-.debug .column-left{
+.debug .column-left {
     background-color: brown;
     width: 70%;
     height: 1000px;
-    
+
 }
 
 .debug .album {
@@ -124,6 +132,7 @@ header {
     height: 1000px;
 
 }
+
 .debug .img-right {
     background-color: aliceblue;
     width: 95%;
@@ -135,9 +144,22 @@ header {
 /* main sinistro */
 
 .player {
-    font-size: 70px;
-    margin-left: 10px;
-    margin-top: 10px;
+    font-size: 100px;
     color: white;
+    margin-left: 10px;
 }
 
+.text-player {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.text-player ul {
+    color: white;
+    list-style: none;
+    font-size: 23px;
+    margin-top: 10px;
+}
