@@ -90,13 +90,21 @@ header {
     background-color: brown;
     width: 70%;
     height: 1000px;
+    
 }
 
-.column-right {
+.debug .column-right {
     background-color: green;
     width: 30%;
     height: 1000px;
 
+}
+
+.debug .album {
+
+    background-color: azure;
+    height: 100px;
+    width: calc((100% - 15px) / 4);
 }
 
 /* fine debug main*/
@@ -105,5 +113,11 @@ header {
 
 .column {
     display: flex;
+    gap: 5px;
+}
+
+.column-left {
+    display: flex;
+    flex-wrap: wrap;
     gap: 5px;
 }
