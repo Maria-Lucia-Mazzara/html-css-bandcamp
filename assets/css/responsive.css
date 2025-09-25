@@ -26,13 +26,34 @@
 
 }
 
-@media screen and (max-width 601px) {
+@media screen and (max-width: 601px) {
 
-    .album {
+    .container {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .search-heder {
+        display: none;
+    }
+
+    .column-left {
         display: flex;
         flex-wrap: wrap;
-        width: calc((100% - 20px) / 2);
-        
+        width: 100%;
+
     }
+
+    .column-right {
+        display: none;
+    }
+
 
 }
