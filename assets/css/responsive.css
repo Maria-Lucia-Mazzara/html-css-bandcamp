@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        width: 100%;
+    }
+
+.album {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 20px) / 2) ;
+}
+
+
+
+}
