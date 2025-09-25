@@ -146,6 +146,7 @@ header {
     flex-wrap: wrap;
     gap: 5px;
     width: 70%;
+    height: calc(100vh - 150px);
     overflow-y: auto;
 }
 
@@ -184,11 +185,13 @@ header {
 /* main sinistro */
 .column-right {
     width: 30%;
+    
 }
 
 .img-right {
     width: 95%;
     margin-top: 20px;
+    border: 0.1px solid white;
 }
 
 .player {
