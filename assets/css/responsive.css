@@ -13,6 +13,18 @@
     width: calc((100% - 20px) / 2) ;
 }
 
+.text-player ul { 
+    
+    font-size: 15px;
+}
+
+.text-btn {
+    margin-top: 10px;
+}
+
+.text-user p {
+    font-size: 15px;
+}
 
 
 }
