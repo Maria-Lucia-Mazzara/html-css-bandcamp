@@ -1,30 +1,38 @@
-
-
 @media screen and (max-width: 768px) {
-    
+
     .container {
         width: 100%;
     }
 
-.album {
+    .album {
 
-    display: flex;
-    flex-wrap: wrap;
-    width: calc((100% - 20px) / 2) ;
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% - 20px) / 2);
+    }
+
+    .text-player ul {
+
+        font-size: 15px;
+    }
+
+    .text-btn {
+        margin-top: 10px;
+    }
+
+    .text-user p {
+        font-size: 15px;
+    }
+
 }
 
-.text-player ul { 
-    
-    font-size: 15px;
-}
+@media screen and (max-width 601px) {
 
-.text-btn {
-    margin-top: 10px;
-}
-
-.text-user p {
-    font-size: 15px;
-}
-
+    .album {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% - 20px) / 2);
+        
+    }
 
 }
